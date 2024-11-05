@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-main {
+  height: 900px;
+  width: 1500px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 150px 150px;
+}
+
+/* .carousel-main h1 {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.room-details {
+  background-color: aliceblue;
+  /* height: 900px; */
+  min-height: 1000px;
+}
+.card-group {
+  display: flex;
+  padding: 40px 40px;
+  gap: 30px;
+}
+.card {
+  padding: 10px 20px;
+}
+.card-img-top {
+  border-radius: 20px;
+}
+.card:hover {
+  cursor: pointer;
+  padding: 30px 30px;
+}
+.card-body .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.facilities {
+  display: flex;
+  min-height: 700px;
+  flex-direction: column;
+  /* background-color: rgba(127, 255, 212, 0.234); */
+  background-image: url('../images/pexels-quark-studio-1159039-2507010.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facilities h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.facilities .image-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 30px;
+}
+
+.rounded {
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.rounded:hover {
+  padding: 20px 20px;
+  border: 1px solid #c8944a;
+}
+.text-center p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+
+.text-center p:hover {
+  background-color: rgba(0, 0, 0, 0.663);
+  cursor: pointer;
+}
+.details {
+  min-height: 500px;
+  background-image: url('../images/pexels-n-voitkevich-7235804.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.details h1 {
+  min-height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.441);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+  /* align-items: center; */
+  font-size: 100px;
+  position: absolute;
+}
+
+.details p {
+  position: relative;
+  top: 150px;
+  color: black;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+  min-height: 700px;
+  padding: 100px 100px;
+}
+.reviewimage {
+  padding: 20px 20px;
+  width: 400px;
+  height: 50px;
+}
+
+.footer {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 100px;
+  background-color: rgba(127, 255, 212, 0.325);
+}
+
+.footer-one p .footer-two .footer-three.footer-four p {
+  text-decoration: none;
+}
+.task {
+  font-size: 18px;
+  height: 50px;
+  width: 100px;
+}
+
+.room-heading {
+  height: 70px;
+  width: 210px;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  margin-left: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+}
+
+.btn-primary {
+  color: red;
+  background-color: red;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 20px;
+}
+.about-us img {
+  height: 500px;
+  width: 500px;
+}
+
+.about-us p {
+  font-size: 22px;
+}
+
+.about-as {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 20px;
+}
+.about-as img {
+  height: 500px;
+  width: 500px;
+}
+
+.about-as p {
+  font-size: 22px;
+}
